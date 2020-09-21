@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: black;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header {
+    background-color: yellow;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.pirmsKonteineris {
+    width: 30%;
+    height: 400px;
+    flex-direction: column;
+
+}
+#navi {
+    background-color: green;
+    height: 50%;
+    width: 90%;
+
+
+}
+
+#ads {
+    background-color: green;
+    height: 50%;
+    margin-top: 15px;
+    width: 90%;
+}
+
+.antrsKoneineris {
+    width: 70%;
+    height: 400px;
+}
+
+article {
+
+    height: 104%;
+    width: 100%;
+    background-color: green;
+}
+
+footer {
+    background-color: red;
+    height: 30%;
+    width: 100%;
+    margin-top: 50px;
+
+}
+p {
+    padding: 20px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
